@@ -4,9 +4,23 @@
  }*/
 
 body {
-	background-color: PaleGreen;
+	background-color: #ADD8E6;
+
 }
 h1 {
 	color:blue;
-	text-align: center
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+}
+
+.answer-box {
+	width: 100%;
+	height: 100px;
+	background-color:white;
 }
