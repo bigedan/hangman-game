@@ -16,10 +16,12 @@ h2 {
 	text-align: center;
 }
 
-h3 {
+h4 {
+	text-align: center;
+	color:yellow;
 }
 
-.answer-box {
+#word-one {
 	width: 100%;
 	height: 100px;
 	background-color:white;
