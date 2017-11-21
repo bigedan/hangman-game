@@ -8,8 +8,6 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="./assets/javascript/game.js"></script>
-    
-    
 </head>
 
 <body>
@@ -23,14 +21,20 @@
         </div>
         <hr>
         <div class="row">
-            <div class="col-md-4">
-                <h3>Guess remaining</h3>
+            <div id="guess-remaining">
+                <div class="col-md-4">
+                    <h3>Guess remaining</h3>
+                </div>
             </div>
-            <div class="col-md-4">
-                <h3>Letters already guessed</h3>
+            <div id="letters-guessed">
+                <div class="col-md-4">
+                    <h3>Letters already guessed</h3>
+                </div>
             </div>
-            <div class="col-md-4 .col-md-4">
-                <h3>Wins</h3>
+            <div id="wins">
+                <div class="col-md-4">
+                    <h3>Wins</h3>
+                </div>
             </div>
         </div>
         <br />
@@ -42,8 +46,11 @@
         <br />
         <br />
         <br />
-
-        <div id="word-one">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="answer-box">
+                </div>
+            </div>
         </div>
     </div>
 </body>

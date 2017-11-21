@@ -1,14 +1,10 @@
-/*body {
-    background: url("../images/hangmanbg.png");
-
- }*/
-
 body {
-	background-color: #ADD8E6;
+    background: url("../images/atl.jpg");
+ }
 
 }
 h1 {
-	color:blue;
+	color:white;
 	text-align: center;
 }
 
@@ -21,8 +17,26 @@ h4 {
 	color:yellow;
 }
 
-#word-one {
+#answer-box {
 	width: 100%;
 	height: 100px;
 	background-color:white;
+}
+
+#guess-remaining {
+	width: 33%;
+	height:33%;
+	color:white;
+}
+
+#letters-guessed {
+	width: 33%;
+	height:33%;
+	color: white;
+}
+
+#wins {
+	width: 33%;
+	height:33%;
+	color: white;
 }
