@@ -1,54 +1,42 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <title>Hangman Game</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./assets/javascript/game.js"></script>
-</head>
-
-<body>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Events!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    </head>
+  <body>
     <div class="container">
-        <div class="jumbotron">
-            <h1>Welcome to the game: Hangman</h1>
-            <p><a class="btn btn-primary btn-lg">Press any key to get started!</a></p>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="jumbotron">
+            <h2>Price any key to begin!</h2>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="panel panel-primary">
-                    <div class="headPanel panel-heading">
-                        <h3 class=" panel-title">Guess Remaining</h3>
-                    </div>
-                    <div id =" guessRemaing" class="contentPanel panel-body">
-                        <p>Panel content</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-primary">
-                    <div class="headPanel panel-heading">
-                        <h3 class="panel-title">Letters Already Guessed</h3>
-                    </div>
-                    <div id ="lettersGuessed" class="contentPanel panel-body">
-                       <p>Panel content</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-primary">
-                    <div class="headPanel panel-heading">
-                        <h3 class="panel-title">Wins</h3>
-                    </div>
-                    <div id = "wins" class="contentPanel panel-body">
-                      <p>Panel content</p>
-                    </div>
-                </div>
-            </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <p>Guess that Georgia City!</p>
+            <div id = "theWord"></div>
         </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <p>Wins</p>
+            <div id = "wins"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <p>Guesses Remaining</p>
+            <div id = "guesses"></div>
+        </div>
+      </div>
     </div>
-</body>
+     <script type="text/javascript" src="./assets/javascript/game.js">
+    </script>
 
+  </body>
 </html>
+
